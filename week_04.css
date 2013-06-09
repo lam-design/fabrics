@@ -1,0 +1,72 @@
+body, li{
+	font:0.9em Helvetica, Arial, sans-serif;
+	color:black;
+
+}
+
+#header{
+	position: relative;
+	padding:5px;
+	background-color:#8E8E8D;
+	height:20%;
+}
+
+img.logo{
+	float:left;
+	margin-left:2em;
+}
+
+#header nav ul { /*horizontal navigation links*/
+	float:right;
+	margin-right:1em;
+	list-style:none;
+}
+
+#header nav ul li{
+	display:inline;
+	position:relative;
+	color:#000000;
+
+}
+
+#header nav ul li a:hover{
+	color:#333333;	
+	text-decoration: none;
+}
+
+/* why is it a?*/
+#header nav ul li a:visited {
+	color:#000000;
+		text-decoration: none;
+}
+
+#header ul li{ /*contact info*/
+	list-style:none;
+	text-align:right;
+	margin-right:1em;
+	color:#CCCCCB;
+	font-size:10pt;
+}
+
+#sidebar{
+	background-color:#CCCCCB;
+	padding:5px;
+	width:250px;
+	height:600px;
+	float:left;
+}
+
+#sidebar ul li { /*product categories*/
+	list-style:none;
+}
+
+#sidebar ul li ul li{ /*product subcategories*/
+	text-indent:0.1em;
+	color:#3C3C3C;
+}
+
+img.cashmere{
+	float:right;
+	width:1004px;
+}
+
