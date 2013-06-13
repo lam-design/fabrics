@@ -1,0 +1,127 @@
+body, li{
+	font:0.9em Helvetica, Arial, sans-serif;
+	color:black;
+}
+
+#header{
+	background-color:#8E8E8D;
+	position:relative;
+	height:250px;
+}
+
+#header ul { /*contact info position*/
+	position:absolute;
+	right:2%;
+}
+
+#header ul li{
+	list-style:none;
+	text-align:right;
+	color:#CCCCCB;
+}
+
+#header nav ul{ /*navigation position*/
+	position:absolute;
+	right:2%;
+	bottom:2%;
+}
+
+#header nav ul li{
+	color:black;
+}
+
+#header a{
+	text-decoration:none;
+	padding-right:0.5em;
+	padding-left:0.5em;
+	color:black;
+}
+
+#header a.active{
+	color:white;
+}
+
+#header nav ul li{
+	list-style:none;
+	display:inline;
+}
+
+#header img.logo{
+	position:absolute;
+	left:2%;
+	top:25%;
+}
+
+/*--------------------------------end of header-----------------------------------*/
+
+#sidebar{
+	background-color:#CCCCCB;
+	position:absolute;
+	width:250px;
+	height:600px;
+}
+
+#sidebar h3{
+	position:relative;
+	left:10%;
+}
+
+#sidebar ul li{ /*Links position*/
+	position:relative;
+	right:6%;
+	list-style:none;
+	font-size:12pt;
+}
+
+#sidebar a{
+	color:black;
+	text-decoration:none;
+}
+
+#sidebar a.active{
+	color:white;
+}
+
+/*--------------------------------end of sidebar-----------------------------------*/
+#content {
+	background-color:black;
+	position:absolute;
+	left:250px;
+	height:600px;
+	width:1022px;
+}
+
+#content img{
+	width:1022px;
+}
+
+#content #transbox{
+	position:absolute;
+	right:0;
+	top:40%;
+	width:400px;
+  	height:180px;
+  	background-color:black;
+  	opacity:0.6;
+}
+
+#transbox p{
+	color:white;
+	font-size:10pt;
+	margin:1em;
+}
+
+#content a{
+	text-decoration:none;
+	color:white;
+	opacity:0.7;
+}
+
+#content h1{
+	position:absolute;
+	font-size:40pt;
+	right:5%;
+	top:26%;
+}
+
+/*--------------------------------end of content-----------------------------------*/
